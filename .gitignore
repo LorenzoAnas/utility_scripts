@@ -141,3 +141,7 @@ cython_debug/
 *.bak
 *.tmp
 *.temp
+
+/temperature.db
+*.db
+temperature.db
