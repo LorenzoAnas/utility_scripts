@@ -20,7 +20,8 @@ def get_cpu_temperature():
         return None
 
 def log_temperature():
-    conn = sqlite3.connect('temperature.db')
+    db_path = os.path.join(os.path.dirname(__file__), 'temperature.db')
+    conn = sqlite3.connect(db_path)
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS temperature
                  (timestamp TEXT, temp REAL)''')

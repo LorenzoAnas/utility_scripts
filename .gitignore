@@ -142,6 +142,5 @@ cython_debug/
 *.tmp
 *.temp
 
-/temperature.db
-*.db
-temperature.db
+# Ignore temperature database
+src/temperature_monitor/temperature.db
