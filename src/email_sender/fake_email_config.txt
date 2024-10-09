@@ -1,0 +1,5 @@
+# If you fill this text file with your credentials and then switch it to a .env file it will be ignored by git
+
+FROM_EMAIL_USER=email@example.com
+TO_EMAIL_USER=email@example.com
+EMAIL_PASSWORD=password
